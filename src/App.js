@@ -1,4 +1,5 @@
 import Logo from './Logo.png';
+import FieldTripLabs from './FieldTripLabs.png'
 import {useState} from "react";
 import {SocialIcon} from "react-social-icons";
 
@@ -9,6 +10,7 @@ export default function App() {
             <MainLogo />
             <About />
             <Tools />
+            <Work />
         </>
     );
 
@@ -119,13 +121,22 @@ export default function App() {
         )
     }
 
-    function Work(){
-        return(
-            <div>
-
+    function Work() {
+        return (
+            <div className='flex justify-center items-center h-screen md: justify-around'>
+                <div className='flex flex-col items-center md:w-[1000px] md:flex-row md:justify-around'>
+                    <p className='invisible md:visible'>Field Trip Planner is a comprehensive travel planning platform that simplifies the process of organizing trips. This project was developed as part of the Capstone Project for FieldTripLabs at CodeUp. The platform utilizes the Google Places API to provide users with curated lists of nearby attractions and points of interest based on their chosen destination. Users can easily add these places to their personalized itineraries, create checklists, and access real-time weather updates to ensure they're well-prepared for their adventures.</p>
+                    <img src={FieldTripLabs} alt='FieldTripLabs' className="rounded-3xl mx-auto h-4/5 w-4/5"/>
+                    <a href="https://fieldtriplab.com" target="_blank" >
+                        <button className='transition ease-in-out duration-300 hover:bg-purple-300 hover:-translate-y-1 hover:scale-110 p-2 m-2 bg-[#62336b] rounded-full'>Visit FieldTripLabs</button>
+                    </a>
+                </div>
             </div>
-        )
+        );
     }
+
+
+
 }
 
 
