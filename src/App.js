@@ -25,8 +25,8 @@ export default function App() {
 
 
         return (
-            <div className="sticky top-0 w-full h-[80px] flex justify-between px-5">
-                <button onClick={handleClick} className='z-10 md:invisible'>
+            <div className="sticky top-0 w-full h-[80px] z-10 flex justify-between px-5">
+                <button onClick={handleClick} className=' md:invisible'>
                     {!isOpen ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                                     stroke="currentColor" className="w-10 h-10">
                         <path strokeLinecap="round" strokeLinejoin="round"
@@ -77,7 +77,7 @@ export default function App() {
 
                     </li>
                     <li>
-                        <Link to="work" smooth={true} duration={500} offset={200}>
+                        <Link to="work" smooth={true} duration={500} offset={-200}>
                             <button
                                 className=' transition duration-300 hover:bg-purple-300 hover:-translate-y-1 hover:scale-110 p-2 m-2 bg-[#62336b] rounded-full'>
                                 WORK
