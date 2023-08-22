@@ -232,7 +232,8 @@ export default function App() {
                     <input className=' rounded my-4 p-2 bg-slate-100 text-slate-600' type="email" placeholder='Email'
                            name='email'/>
                     <textarea className=' rounded p-2 bg-slate-100 text-slate-600' name="message" placeholder='Message'
-                              cols="30" rows="10"></textarea>
+                              cols="30" rows="10">
+                    </textarea>
 
                     <button
                         className=' transition ease-in-out duration-300 hover:bg-purple-300 hover:-translate-y-1 hover:scale-110 p-3 my-8 bg-[#62336b] rounded-full mx-auto flex items-center'>Contact
