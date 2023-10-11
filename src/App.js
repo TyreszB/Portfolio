@@ -5,7 +5,6 @@ import WildOasis from "./WildOasis.png";
 import { useState } from "react";
 import { SocialIcon } from "react-social-icons";
 import { Link } from "react-scroll";
-//  updating
 
 export default function App() {
   return (
