@@ -206,7 +206,7 @@ export default function App() {
                 src={WildOasis}
                 alt="Wild Oasis"
                 onMouseEnter={() => handleSelection(0)}
-                className={`rounded-3xl mx-auto shadow-lg shadow-cyan-500/50 hover:scale-110 duration-500 md:h-full md:w-full ${
+                className={`rounded-3xl mx-auto shadow-lg shadow-purple-400/50 hover:scale-110 duration-500 md:h-full md:w-full ${
                   selectedImage === 0
                     ? "opacity-100 hover:opacity-100"
                     : "opacity-50 hover:opacity-100"
@@ -223,7 +223,7 @@ export default function App() {
                 src={FieldTripLabs}
                 alt="FieldTripLabs"
                 onMouseEnter={() => handleSelection(1)}
-                className={`rounded-3xl mx-auto shadow-lg shadow-cyan-500/50 hover:scale-110 duration-500 md:h-full md:w-full ${
+                className={`rounded-3xl mx-auto shadow-lg shadow-purple-400/50 hover:scale-110 duration-500 md:h-full md:w-full ${
                   selectedImage === 1
                     ? "opacity-100 hover:opacity-100"
                     : "opacity-50 hover:opacity-100"
@@ -246,47 +246,57 @@ export default function App() {
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
             alt="react logo"
-            className="h-[100px] w-[100px] mx-auto md:my-12 hover:scale-110 duration-500"
+            className="h-[80px] w-[80px] mx-auto md:my-12 hover:scale-110 duration-500"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
             alt="tailwindcss logo"
-            className="h-[100px] w-[100px] mx-auto my-12 hover:scale-110 duration-500"
+            className="h-[80px] w-[80px] mx-auto my-12 hover:scale-110 duration-500"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
             alt="html5 logo"
-            className="h-[100px] w-[100px] mx-auto my-12 hover:scale-110 duration-500"
+            className="h-[80px] w-[80px] mx-auto my-12 hover:scale-110 duration-500"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
             alt="css3 logo"
-            className="h-[100px] w-[100px] mx-auto my-12 hover:scale-110 duration-500"
+            className="h-[80px] w-[80px] mx-auto my-12 hover:scale-110 duration-500"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
             alt="javascript logo"
-            className="h-[100px] w-[100px] mx-auto my-12 rounded-3xl hover:scale-110 duration-500"
+            className="h-[80px] w-[80px] mx-auto my-12 rounded-3xl hover:scale-110 duration-500"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
             alt="java logo"
-            className="h-[100px] w-[100px] mx-auto my-12 hover:scale-110 duration-500"
+            className="h-[80px] w-[80px] mx-auto my-12 hover:scale-110 duration-500"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
             alt="spring logo"
-            className="h-[100px] w-[100px] mx-auto my-12 hover:scale-110 duration-500"
+            className="h-[80px] w-[80px] mx-auto my-12 hover:scale-110 duration-500"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
             alt="bootstrap logo"
-            className="h-[100px] w-[100px] mx-auto my-12 hover:scale-110 duration-500"
+            className="h-[80px] w-[80px] mx-auto my-12 hover:scale-110 duration-500"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
             alt="mysql logo"
-            className="h-[100px] w-[100px] mx-auto my-12 hover:scale-110 duration-500"
+            className="h-[80px] w-[80px] mx-auto my-12 hover:scale-110 duration-500"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            alt="nodejs logo"
+            className="h-[80px] w-[80px] mx-auto my-12 hover:scale-110 duration-500"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+            alt="mongo8 logo"
+            className="h-[80px] w-[80px] mx-auto my-12 hover:scale-110 duration-500"
           />
         </div>
         <About />
